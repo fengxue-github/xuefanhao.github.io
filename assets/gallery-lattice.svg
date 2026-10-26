@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-labelledby="title">
+  <title id="title">Abstract crystal lattice illustration</title>
+  <rect width="960" height="640" fill="#18252b"/>
+  <g fill="none" stroke="#53747d" stroke-width="2" opacity=".62">
+    <path d="M153 121l208 67 204-96 211 84 48 190-172 153-211-67-188 82-99-176z"/>
+    <path d="M153 121l131 153 77-86 204-96 89 243 23 37-172 153 39-190-188 82-99-176z"/>
+    <path d="M361 188l134 234 134-236M153 121l208 67 134 234M565 92l211 84-112 246M361 188l77-86M496 422l134-236"/>
+  </g>
+  <g fill="#0ea1c5">
+    <circle cx="153" cy="121" r="13"/><circle cx="361" cy="188" r="15"/>
+    <circle cx="565" cy="92" r="13"/><circle cx="776" cy="176" r="11"/>
+    <circle cx="824" cy="366" r="14"/><circle cx="652" cy="519" r="10"/>
+    <circle cx="441" cy="452" r="12"/><circle cx="253" cy="534" r="15"/>
+    <circle cx="154" cy="377" r="10"/>
+  </g>
+  <g fill="#eaf2f3">
+    <circle cx="495" cy="422" r="8"/><circle cx="284" cy="274" r="5"/>
+    <circle cx="671" cy="328" r="5"/><circle cx="464" cy="358" r="5"/>
+  </g>
+  <text x="52" y="77" fill="#d8e6e9" font-family="Arial,sans-serif" font-size="18" letter-spacing="4">MULTISCALE MATERIALS</text>
+</svg>

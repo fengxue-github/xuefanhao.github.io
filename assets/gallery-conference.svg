@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-labelledby="title">
+  <title id="title">Abstract conference and collaboration illustration</title>
+  <rect width="960" height="640" fill="#1b2328"/>
+  <g fill="none" stroke="#b7c8cc" opacity=".34">
+    <path d="M108 519V193l174-91v417M282 193l172 88v238M454 519V281l165-96v334M619 519V185l188 96v238M807 519V281l45-23v261"/>
+    <path d="M108 193l174 88 172-96 165 96 188-96 45 23"/>
+    <path d="M108 519h744"/>
+  </g>
+  <g fill="#0ea1c5" opacity=".86">
+    <rect x="147" y="253" width="18" height="30" rx="2"/>
+    <rect x="184" y="238" width="18" height="45" rx="2"/>
+    <rect x="221" y="268" width="18" height="15" rx="2"/>
+    <rect x="493" y="319" width="18" height="41" rx="2"/>
+    <rect x="530" y="303" width="18" height="57" rx="2"/>
+    <rect x="567" y="336" width="18" height="24" rx="2"/>
+    <rect x="661" y="247" width="18" height="35" rx="2"/>
+    <rect x="698" y="222" width="18" height="60" rx="2"/>
+    <rect x="735" y="258" width="18" height="24" rx="2"/>
+  </g>
+  <circle cx="479" cy="105" r="41" fill="none" stroke="#0ea1c5" opacity=".72"/>
+  <circle cx="479" cy="105" r="8" fill="#e9f1f2"/>
+  <path d="M438 105h82M479 64v82" stroke="#e9f1f2" opacity=".35"/>
+  <text x="52" y="77" fill="#d8e6e9" font-family="Arial,sans-serif" font-size="18" letter-spacing="4">CONFERENCES &amp; COLLABORATION</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-labelledby="title">
+  <title id="title">Abstract numerical simulation contours</title>
+  <rect width="960" height="640" fill="#132126"/>
+  <g fill="none" stroke="#0ea1c5" stroke-width="2">
+    <path d="M-30 531C84 488 160 357 293 354s177 73 272 30 110-151 218-184 151-5 223-49" opacity=".28"/>
+    <path d="M-20 568C101 513 173 400 302 395s177 63 271 18 117-139 220-177 148-1 219-45" opacity=".42"/>
+    <path d="M-10 603C118 540 190 446 315 438s173 55 263 7 123-132 222-169 147 3 215-39" opacity=".62"/>
+    <path d="M5 636C139 572 211 493 330 481s163 46 251 0 130-122 225-159 145 8 211-32" opacity=".86"/>
+  </g>
+  <g fill="none" stroke="#a6c4cb" opacity=".2">
+    <path d="M67 42h826M67 122h826M67 202h826M67 282h826M67 362h826M67 442h826M67 522h826M67 602h826"/>
+    <path d="M70 40v564M180 40v564M290 40v564M400 40v564M510 40v564M620 40v564M730 40v564M840 40v564"/>
+  </g>
+  <g fill="#e7eff1">
+    <circle cx="293" cy="514" r="7"/><circle cx="584" cy="423" r="7"/>
+    <circle cx="768" cy="232" r="7"/><circle cx="866" cy="196" r="7"/>
+  </g>
+  <text x="52" y="77" fill="#d8e6e9" font-family="Arial,sans-serif" font-size="18" letter-spacing="4">COMPUTATIONAL METHODS</text>
+</svg>

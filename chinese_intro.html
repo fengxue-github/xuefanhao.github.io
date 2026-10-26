@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>个人简介 | Xue Fanhao</title>
+    <meta name="description" content="Xue Fanhao 的个人主页，包含个人简介、教育与工作经历、研究方向、会议报告及合作信息。">
+    <link rel="canonical" href="https://fengxue-github.github.io/xuefanhao.github.io/chinese_intro.html">
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="个人简介 | Xue Fanhao">
+    <meta property="og:description" content="研究方向、经历、报告与合作信息。">
+    <meta property="og:url" content="https://fengxue-github.github.io/xuefanhao.github.io/chinese_intro.html">
+    <meta name="theme-color" content="#474747">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <script>
+      document.documentElement.dataset.theme =
+        localStorage.getItem("xuefanhao-theme") || "dark";
+    </script>
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">跳到主要内容</a>
+    <header class="masthead">
+      <div class="masthead__inner">
+        <a class="brand" href="index.html">Xue Fanhao</a>
+        <button class="icon-button nav-toggle" type="button" aria-label="打开导航" aria-controls="site-nav" aria-expanded="false" data-nav-toggle>
+          <i data-lucide="menu"></i>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="主导航">
+          <a href="index.html">About Me</a>
+          <a href="research.html">Research</a>
+          <a href="teaching.html">Teaching</a>
+          <a href="people.html">People</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="join.html">Join Us!</a>
+        </nav>
+        <div class="header-actions">
+          <a class="lang-switch" href="index.html" lang="en">EN</a>
+          <button class="icon-button" type="button" aria-label="切换为浅色主题" data-theme-toggle>
+            <i class="theme-moon" data-lucide="moon"></i>
+            <i class="theme-sun" data-lucide="sun"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div class="page-shell">
+      <aside class="profile" aria-label="个人资料">
+        <div class="avatar-frame">
+          <img class="avatar" src="assets/profile.svg" alt="Xue Fanhao 的头像占位图" width="360" height="360">
+        </div>
+        <div>
+          <h2 class="profile__name">Xue Fanhao</h2>
+          <p class="profile__role">研究者</p>
+          <p class="profile__pronouns">个人学术主页</p>
+        </div>
+        <ul class="profile__links">
+          <li><i data-lucide="map-pin"></i><span>中国</span></li>
+          <li><i data-lucide="building-2"></i><span>独立研究</span></li>
+          <li><i data-lucide="globe"></i><a href="https://fengxue-github.github.io/xuefanhao.github.io/">个人网站</a></li>
+          <li><i data-lucide="mail"></i><a href="mailto:xuefanhao@example.com">邮箱</a></li>
+          <li><i data-lucide="graduation-cap"></i><a href="#papers">Google Scholar</a></li>
+          <li><i data-lucide="badge-check"></i><a href="#papers">ORCID</a></li>
+          <li><i data-lucide="github"></i><a href="https://github.com/xuefanhao">GitHub</a></li>
+        </ul>
+      </aside>
+
+      <main class="content" id="main-content">
+        <header class="content-intro">
+          <p class="eyebrow">个人简介</p>
+          <h1>Xue Fanhao</h1>
+          <p>
+            Xue Fanhao 是一位关注人工智能、数据驱动方法与跨学科协作的研究者和实践者。
+            研究方向聚焦于如何用计算方法理解复杂系统，并将研究过程转化为可复现、
+            可维护且能够被他人使用的工具与成果。
+          </p>
+          <p>
+            本页面沿用经典学术个人主页的信息结构，包含个人简介、教育与工作经历、
+            研究方向、会议报告和合作信息。所有内容均为静态页面，可以直接部署到
+            GitHub Pages。
+          </p>
+        </header>
+
+        <section aria-labelledby="experience-title">
+          <h2 id="experience-title">教育及工作经历</h2>
+          <ul class="timeline">
+            <li>
+              <strong>独立研究者</strong>
+              <span class="timeline__meta">研究项目与开源工作 · 至今</span>
+            </li>
+            <li>
+              <strong>博士，[研究方向]</strong>
+              <span class="timeline__meta">[学校名称] · 20XX–20XX · 请替换为真实经历</span>
+            </li>
+            <li>
+              <strong>访问学者，[研究方向]</strong>
+              <span class="timeline__meta">[机构名称] · 20XX–20XX · 请替换为真实经历</span>
+            </li>
+            <li>
+              <strong>学士，[专业名称]</strong>
+              <span class="timeline__meta">[学校名称] · 20XX–20XX · 请替换为真实经历</span>
+            </li>
+          </ul>
+        </section>
+
+        <section aria-labelledby="interests-title">
+          <h2 id="interests-title">研究方向</h2>
+          <ul>
+            <li>人工智能与数据驱动发现</li>
+            <li>复杂系统的可解释建模</li>
+            <li>可复现的计算方法与研究软件</li>
+            <li>工程、科学与人工智能的跨学科协作</li>
+          </ul>
+        </section>
+
+        <section aria-labelledby="talks-title">
+          <h2 id="talks-title">会议与报告</h2>
+          <ul class="plain-list">
+            <li><strong>学术报告题目</strong>，会议或研讨会名称，城市，2026</li>
+            <li><strong>项目分享题目</strong>，工作坊或论坛名称，城市，2026</li>
+            <li><strong>邀请报告题目</strong>，高校或研究机构，2026</li>
+          </ul>
+        </section>
+
+        <section id="papers" aria-labelledby="papers-title">
+          <h2 id="papers-title">论文与项目</h2>
+          <p>
+            在这里放置代表性论文、预印本、软件项目或研究报告。每一条内容都可以
+            同时提供论文、代码和项目主页链接。
+          </p>
+          <ul class="plain-list">
+            <li>
+              <strong>代表性论文标题</strong> · 期刊或会议 · 2026
+              <span class="text-muted">— <a href="#">论文</a> / <a href="#">代码</a></span>
+            </li>
+            <li>
+              <strong>预印本标题</strong> · arXiv · 2026
+              <span class="text-muted">— <a href="#">PDF</a> / <a href="#">项目主页</a></span>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <p>&copy; 2026 Xue Fanhao · 静态个人学术主页</p>
+        <p><a href="index.html">English</a> · <a href="chinese_intro.html">中文</a> · <a href="join.html">联系</a></p>
+      </div>
+    </footer>
+
+    <script src="assets/lucide.min.js"></script>
+    <script src="assets/site.js"></script>
+  </body>
+</html>

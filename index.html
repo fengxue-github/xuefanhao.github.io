@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Xue Fanhao | Personal Homepage</title>
+    <meta name="description" content="Personal academic homepage of Xue Fanhao, featuring research interests, selected experience, publications, teaching, and collaboration opportunities.">
+    <link rel="canonical" href="https://fengxue-github.github.io/xuefanhao.github.io/">
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Xue Fanhao | Personal Homepage">
+    <meta property="og:description" content="Research, teaching, collaboration, and selected work.">
+    <meta property="og:url" content="https://fengxue-github.github.io/xuefanhao.github.io/">
+    <meta name="theme-color" content="#474747">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <script>
+      document.documentElement.dataset.theme =
+        localStorage.getItem("xuefanhao-theme") || "dark";
+    </script>
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="masthead">
+      <div class="masthead__inner">
+        <a class="brand" href="index.html">Xue Fanhao</a>
+        <button class="icon-button nav-toggle" type="button" aria-label="Open navigation" aria-controls="site-nav" aria-expanded="false" data-nav-toggle>
+          <i data-lucide="menu"></i>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+          <a href="index.html" aria-current="page">About Me</a>
+          <a href="research.html">Research</a>
+          <a href="teaching.html">Teaching</a>
+          <a href="people.html">People</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="join.html">Join Us!</a>
+        </nav>
+        <div class="header-actions">
+          <a class="lang-switch" href="chinese_intro.html" lang="zh-CN">中文</a>
+          <button class="icon-button" type="button" aria-label="Switch to light theme" data-theme-toggle>
+            <i class="theme-moon" data-lucide="moon"></i>
+            <i class="theme-sun" data-lucide="sun"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div class="page-shell">
+      <aside class="profile" aria-label="Profile">
+        <div class="avatar-frame">
+          <img class="avatar" src="assets/profile.svg" alt="Placeholder portrait for Xue Fanhao" width="360" height="360">
+        </div>
+        <div>
+          <h2 class="profile__name">Xue Fanhao</h2>
+          <p class="profile__role">Researcher</p>
+          <p class="profile__pronouns">Academic profile</p>
+        </div>
+        <ul class="profile__links">
+          <li><i data-lucide="map-pin"></i><span>China</span></li>
+          <li><i data-lucide="building-2"></i><span>Independent Research</span></li>
+          <li><i data-lucide="globe"></i><a href="https://fengxue-github.github.io/xuefanhao.github.io/">Website</a></li>
+          <li><i data-lucide="mail"></i><a href="mailto:xuefanhao@example.com">Email</a></li>
+          <li><i data-lucide="graduation-cap"></i><a href="#publications">Google Scholar</a></li>
+          <li><i data-lucide="badge-check"></i><a href="#publications">ORCID</a></li>
+          <li><i data-lucide="github"></i><a href="https://github.com/xuefanhao">GitHub</a></li>
+        </ul>
+      </aside>
+
+      <main class="content" id="main-content">
+        <header class="content-intro">
+          <p class="eyebrow">About me</p>
+          <h1>Xue Fanhao</h1>
+          <p>
+            Xue Fanhao is a researcher and builder working across artificial
+            intelligence, data-driven systems, and interdisciplinary
+            collaboration. His work explores how computational methods can
+            make complex information more accessible, reproducible, and useful.
+          </p>
+          <p>
+            This homepage follows the structure of a modern academic portfolio:
+            concise research framing, selected experience, a clear publication
+            surface, and practical ways to collaborate. The page is completely
+            static and can be maintained with ordinary HTML and CSS.
+          </p>
+        </header>
+
+        <section aria-labelledby="experience-title">
+          <h2 id="experience-title">Education &amp; Experience</h2>
+          <ul class="timeline">
+            <li>
+              <strong>Independent Researcher</strong>
+              <span class="timeline__meta">Research and open-source projects · Present</span>
+            </li>
+            <li>
+              <strong>Ph.D. studies, [Field of study]</strong>
+              <span class="timeline__meta">[University] · 20XX–20XX · Replace with verified details</span>
+            </li>
+            <li>
+              <strong>Visiting Researcher, [Research area]</strong>
+              <span class="timeline__meta">[Institution] · 20XX–20XX · Replace with verified details</span>
+            </li>
+            <li>
+              <strong>B.Sc., [Field of study]</strong>
+              <span class="timeline__meta">[University] · 20XX–20XX · Replace with verified details</span>
+            </li>
+          </ul>
+        </section>
+
+        <section aria-labelledby="interests-title">
+          <h2 id="interests-title">Research Interests</h2>
+          <ul>
+            <li>Artificial intelligence and data-driven discovery</li>
+            <li>Interpretable models for complex real-world systems</li>
+            <li>Reproducible computational methods and research software</li>
+            <li>Interdisciplinary collaboration across engineering and the sciences</li>
+          </ul>
+        </section>
+
+        <section aria-labelledby="publications-title">
+          <h2 id="publications-title">Selected Publications</h2>
+          <p>
+            Publications, preprints, and project write-ups can be listed here
+            with links to DOI pages, PDF files, code repositories, and
+            supplementary material.
+          </p>
+          <ul class="plain-list">
+            <li>
+              <strong>Representative publication title</strong> · Journal or
+              conference · 2026
+              <span class="text-muted">— <a href="#">Paper</a> / <a href="#">Code</a></span>
+            </li>
+            <li>
+              <strong>Preprint title</strong> · arXiv · 2026
+              <span class="text-muted">— <a href="#">PDF</a> / <a href="#">Project page</a></span>
+            </li>
+          </ul>
+          <p><a href="join.html">Contact Xue Fanhao about a publication or collaboration</a>.</p>
+        </section>
+
+        <section aria-labelledby="news-title">
+          <h2 id="news-title">News</h2>
+          <ul class="plain-list">
+            <li><strong>2026.10</strong> — Static personal homepage launched.</li>
+            <li><strong>2026</strong> — Open to research collaborations and interdisciplinary projects.</li>
+            <li><strong>2026</strong> — This section can be replaced with talks, awards, or project milestones.</li>
+          </ul>
+        </section>
+      </main>
+    </div>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <p>&copy; 2026 Xue Fanhao · Static academic homepage</p>
+        <p><a href="index.html">Home</a> · <a href="chinese_intro.html">中文</a> · <a href="join.html">Contact</a></p>
+      </div>
+    </footer>
+
+    <script src="assets/lucide.min.js"></script>
+    <script src="assets/site.js"></script>
+  </body>
+</html>

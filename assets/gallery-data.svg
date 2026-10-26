@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-labelledby="title">
+  <title id="title">Abstract data network illustration</title>
+  <rect width="960" height="640" fill="#1b282d"/>
+  <g fill="none" stroke="#8ba4aa" opacity=".25">
+    <path d="M80 105h800M80 205h800M80 305h800M80 405h800M80 505h800"/>
+    <path d="M155 70v500M315 70v500M475 70v500M635 70v500M795 70v500"/>
+  </g>
+  <g fill="none" stroke="#0ea1c5" stroke-width="2" opacity=".7">
+    <path d="M165 455L289 281 437 377 587 166 753 264 817 451 620 514 435 454 289 567z"/>
+    <path d="M165 455L437 377 587 166M289 281l148 96 316 74M753 264l-133 250M620 514l-185-60"/>
+  </g>
+  <g fill="#c7d9dd">
+    <circle cx="165" cy="455" r="14"/><circle cx="289" cy="281" r="9"/>
+    <circle cx="437" cy="377" r="11"/><circle cx="587" cy="166" r="13"/>
+    <circle cx="753" cy="264" r="8"/><circle cx="817" cy="451" r="12"/>
+    <circle cx="620" cy="514" r="9"/><circle cx="435" cy="454" r="14"/>
+    <circle cx="289" cy="567" r="10"/>
+  </g>
+  <g fill="#0ea1c5">
+    <circle cx="437" cy="377" r="19" opacity=".35"/>
+    <circle cx="587" cy="166" r="23" opacity=".25"/>
+  </g>
+  <text x="52" y="77" fill="#d8e6e9" font-family="Arial,sans-serif" font-size="18" letter-spacing="4">DATA-DRIVEN SYSTEMS</text>
+</svg>
